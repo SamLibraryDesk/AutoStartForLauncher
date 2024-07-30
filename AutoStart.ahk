@@ -1,8 +1,8 @@
-Game_Icon = ;Path of the executable or icon
+Game_Icon = C:\MyGame\Game.exe ;Path of the executable or icon
 
 Menu, Tray, Icon, %Game_Icon%
 
-Winwait, Window-Name, Text-Button, 20 ;Timeout sec timer https://www.autohotkey.com/docs/v1/lib/WinWait.htm
+Winwait, Window-Name, Text-Button, 20 ;Timeout sec timer to close AHK script. https://www.autohotkey.com/docs/v1/lib/WinWait.htm
 if ErrorLevel
 {
     ExitApp,
